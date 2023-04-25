@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>File Encryption</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>File Encryption</h1>
+    </header>
+    <main>
+      <form>
+        <label for="file">Select a file to encrypt or decrypt:</label>
+        <input type="file" id="file" name="file">
+        <br>
+        <br>
+        <label for="password">Enter a password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>
+        <button type="button" onclick="encrypt()">Encrypt File</button>
+        <button type="button" onclick="decrypt()">Decrypt File</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 File Encryption Program By Moises Beleche</p>
+    </footer>
+    <script src="encryption.js"></script>
+  </body>
+</html>
